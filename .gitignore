@@ -1,0 +1,26 @@
+.streamlit/
+__pycache__/
+venv/
+.venv/
+*.pyc
+.pyo
+.pyd
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Python tooling and build output
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Operating system files
+.DS_Store
+Thumbs.db
